@@ -13,7 +13,7 @@ class testPersonFactory(unittest.TestCase):
         log.info("Yaaaaay!!!")
     
     def test_Output_Function(self):
-        self.assertEqual(personFactory("funkyPerson").get().name, "Michael Price")
+        self.assertEqual(personFactory("funkyPerson").get().name, "Michal Price")
 
     def test_Output(self):
         self.assertEqual(personFactory("funkyPerson").get().funk, 10000)
